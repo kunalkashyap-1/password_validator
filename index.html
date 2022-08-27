@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <label for="key">Password</label>
-      <input id="key" type="text" value="" />
+    <section class="container">
+    <div>
+      <label for="key">Password:</label>
+      <input id="key" type="password" value="" placeholder="Enter password"/>
+    </div>
       <div class="check">
         <p class="invalid upper_case">upper_case</p>
         <p class="invalid lower_case">lower_case</p>
@@ -18,7 +20,7 @@
         <p class="invalid spec_char">contains_special-char</p>
         <p class="invalid length">valid length</p>
       </div>
-    </div>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>

@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-body{
+body {
     background-color: slategray;
 }
 
-.container{
+.container {
     display: grid;
     justify-content: center;
 }
 
-.invalid{
-    color:red;
+.invalid {
+    color: red;
 }
 
-.valid{
+.valid {
     color: green;
 }

@@ -11,3 +11,11 @@ body{
     display: grid;
     justify-content: center;
 }
+
+.invalid{
+    color:red;
+}
+
+.valid{
+    color: green;
+}

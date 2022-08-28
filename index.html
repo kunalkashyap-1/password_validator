@@ -4,21 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Password Validator</title>
+    <link rel="shortcut icon" href="css/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="container">
-    <div>
-      <label for="key">Password:</label>
-      <input id="key" type="password" value="" placeholder="Enter password"/>
-    </div>
+      <div class="inp">
+        <label for="key">Password:</label>
+        <input id="key" type="password" value="" placeholder="Enter password" />
+      </div>
       <div class="check">
-        <p class="invalid upper_case">upper_case</p>
-        <p class="invalid lower_case">lower_case</p>
-        <p class="invalid num">contains_number</p>
-        <p class="invalid spec_char">contains_special-char</p>
-        <p class="invalid length">valid length</p>
+        <p>➟ A strong Password must contains:-</p>
+        <p class="invalid upper_case">➜ At least 1 uppercase character.</p>
+        <p class="invalid lower_case">➜ At least 1 lowercase character.</p>
+        <p class="invalid num">➜ At least 1 numerical value.</p>
+        <p class="invalid spec_char">➜ At least 1 special character.</p>
+        <p class="invalid length">➜ Minimum 8 characters.</p>
       </div>
     </section>
     <script src="index.js"></script>

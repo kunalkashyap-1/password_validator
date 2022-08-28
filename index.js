@@ -47,7 +47,7 @@ function check() {
     }
 
     let l = 8;
-    if (pw.value.length > l) {
+    if (pw.value.length >= l) {
         len.classList.remove("invalid");
         len.classList.add("valid");
     }

@@ -4,18 +4,32 @@
 }
 
 body {
-    background-color: slategray;
+    font-family: 'Oswald', sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+p{
+    font-size: larger;
 }
 
 .container {
     display: grid;
     justify-content: center;
-    margin:15rem;
+    margin:25vh;
     gap:1rem;
 }
 
-.check{
-    margin-left:4.5rem;
+.inp{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    display: grid;
+}
+
+#key{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
 }
 
 .invalid {
